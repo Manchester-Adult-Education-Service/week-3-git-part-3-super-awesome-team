@@ -16,11 +16,17 @@
 # First, let’s add some simple Python code.
 # This will give us something to commit to Git.
 
+
+
 # TODO:
 # 1. Ask the user for their name
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
-#
+name = input("What is your name?")
+fovorite_color = input("What is your fovorite color?")
+print(f"{name}'s the best color is {fovorite_color}! ")
+
+
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
@@ -70,7 +76,11 @@
 # -------------------------
 # - Add your Python code (name + hobby)
 # - Save the file
-#
+
+win = input("Who won the last WordCup?")
+country = input("Where  has it been played?")
+print(f"I WordCup won by {win} in {country}! ")
+
 # Then commit your work on your branch:
 #    git add Ex3_git_branch.py
 #    git commit -m "Added greeting with hobby"
