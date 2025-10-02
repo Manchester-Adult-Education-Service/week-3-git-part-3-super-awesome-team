@@ -21,6 +21,12 @@
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
 #
+
+name = input('What is your name?\n')
+favourite_hobby = input('And your favourite hobby?\n')
+
+print(f'{name} has a favourite hobby which is {favourite_hobby}.')
+
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
@@ -37,6 +43,9 @@
 # - Use different variable names (e.g. username, activity)
 # - Follow the same pattern with input + f-string
 # - But this time ask about *name* and *hobby*
+
+drink = input('What about your favourite drink?\n')
+print(f"So {name}'s favourite drink is {drink}!")
 
 # Step 2: Understanding Git Branches
 # ----------------------------------
