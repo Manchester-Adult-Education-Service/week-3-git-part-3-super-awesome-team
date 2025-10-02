@@ -38,6 +38,10 @@
 # - Follow the same pattern with input + f-string
 # - But this time ask about *name* and *hobby*
 
+personname = input("What is your name?")
+personhobby = input("What is your favourite hobby?")
+print(f"Hello, {personname}. {personhobby} is your favourite hobby that's amazing.")
+
 # Step 2: Understanding Git Branches
 # ----------------------------------
 # A branch is like a “copy” of your project where you can make changes
