@@ -20,7 +20,9 @@
 # 1. Ask the user for their name
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
-#
+name=input("Enter your name :")
+favourite_hobby=input("Enter your hobby :")
+print(f"Hello {name} , and your hobby is {favourite_hobby} .")
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
