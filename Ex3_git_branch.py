@@ -21,6 +21,7 @@
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
 #
+print("I'm here to vandalise your code!! >:D")
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
