@@ -20,7 +20,7 @@
 # 1. Ask the user for their name
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
-#
+
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
@@ -28,7 +28,7 @@
 # Imagine we wanted to ask about a person’s favourite colour:
 # colour = input("What is your favourite colour? ")
 # print(f"Wow! {colour} is a nice colour!")
-#
+
 # 👉 Notice how we:
 # - Store the input in a variable (colour)
 # - Use that variable inside an f-string with {}
@@ -37,7 +37,9 @@
 # - Use different variable names (e.g. username, activity)
 # - Follow the same pattern with input + f-string
 # - But this time ask about *name* and *hobby*
-
+name = input("what is your name?")
+hobby = input("what is your favourite hobby")
+print(f"my name is {name}, my favor {hobby}")
 # Step 2: Understanding Git Branches
 # ----------------------------------
 # A branch is like a “copy” of your project where you can make changes
