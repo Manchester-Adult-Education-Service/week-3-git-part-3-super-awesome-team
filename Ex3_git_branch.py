@@ -1,4 +1,4 @@
-# -------------------------------------------
+ # -------------------------------------------
 # Exercise 3: Git Branch & Pull Request
 # -------------------------------------------
 # In this exercise you will learn:
@@ -37,6 +37,9 @@
 # - Use different variable names (e.g. username, activity)
 # - Follow the same pattern with input + f-string
 # - But this time ask about *name* and *hobby*
+
+hobby = input("What is your favourite hobby? ")
+print(f"Amazing! {hobby} is a great hobby!")
 
 # Step 2: Understanding Git Branches
 # ----------------------------------
