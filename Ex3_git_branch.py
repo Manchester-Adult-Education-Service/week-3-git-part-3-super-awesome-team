@@ -20,10 +20,13 @@
 # 1. Ask the user for their name
 # 2. Ask the user for their favourite hobby
 # 3. Print a greeting using both inputs
-name = input("What is your name?")
+name = input("What is your name?: ")
 print(f"your name is {name}")
-favourite_hobby = input("What is your favourite hobby?")
-print(f"is")
+favourite_hobby = input("What is your favourite hobby?: ")
+print(f"Hello {name}! your favourite hobby is {favourite_hobby}")
+colour = input("What is your favourite colour?: ")
+print(f"My favourite colour is {colour}. It is a lovely colour.")
+
 # IMPORTANT:
 # Don’t just copy an example – create your own version.
 #
